@@ -413,10 +413,7 @@ Mobile Breakpoint
 		line-height: 56px;
 	}
 	.empower{
-		overflow:hidden;
-		text-overflow:ellipsis;
-		width: 210px;
-		height: 92px;
+		
 	}
 
 }
