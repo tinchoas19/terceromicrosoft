@@ -1,0 +1,74 @@
+#feedbackButton #feedback-cta {
+    z-index: 7;
+    position: fixed;
+    right: -46px;
+    padding: 20px;
+    background-color: #CCCCCC;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+    top: calc(25% + 65px);
+    -webkit-transform: translateY(-70%);
+    transform: translateY(-70%);
+    transition: right .3s ease; 
+}
+#feedbackButton #feedback-cta .sm {
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 5px; 
+}
+#feedbackButton #feedback-cta .sm svg {
+    width: 36px;
+    height: 36px; 
+}
+#feedbackButton #feedback-cta .lg {
+    display: none;
+    color: white;
+    font-weight: bold;
+    line-height: 40px; 
+}
+#feedbackButton #feedback-cta .lg p {
+    color: #000;
+    font-weight: normal;
+    line-height: normal; 
+    padding: 0;
+}
+#feedbackButton #feedback-cta .thankyou {
+    display: none; 
+}
+#feedbackButton #feedback-cta .thankyou .c-glyph:after {
+    content: "\E73E";
+    display: block;
+    font-size: 82px;
+    line-height: 90px;
+    text-align: center;
+    color: white; 
+}
+#feedbackButton #feedback-cta button.c-button {
+    font-weight: bold;
+    color: white;
+    width: 58px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    min-width: 0;
+    padding: 0;
+    margin-right: 5px;
+    margin-top: 15px; 
+}
+#feedbackButton #feedback-cta.active .sm {
+    display: none; 
+}
+#feedbackButton #feedback-cta.active .lg {
+    display: block; 
+}
+#feedbackButton #feedback-cta.enter {
+    right: 0;
+}
+#feedbackButton #feedback-cta.active {
+    width: 172px;
+    height: 130px;
+    right: 0;
+    top: calc(25% + 118px);
+}

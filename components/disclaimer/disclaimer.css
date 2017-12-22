@@ -1,0 +1,116 @@
+#disclaimer.disclaimer {
+    padding: 70px 0;
+}
+
+#disclaimer.color-grey {
+    background-color: #EBEBEB;
+}
+
+#disclaimer.color-white {
+    background-color: #ffffff;
+}
+
+#disclaimer .disclaimer-content {
+    width: 1330px;
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+#disclaimer .disclaimer-content a {
+    display: block;
+    margin: 30px 0 20px 0;
+    font-size: 36px;
+}
+
+#disclaimer.disclaimer .text {
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 55px 28px 89px 0;
+}
+
+#disclaimer.disclaimer ul {
+    list-style-type: decimal;
+}
+
+#disclaimer.disclaimer .text li {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 12px 0;
+}
+
+#disclaimer.disclaimer .text p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#disclaimer a.c-button[role=button]:focus, 
+#disclaimer a.c-button[role=button]:hover, 
+#disclaimer button.c-button:focus, 
+#disclaimer button.c-button:hover {
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+#disclaimer a.c-button[role=button].collapse-section.section-title {
+    max-width: none;
+    text-decoration: none;
+    padding: 0px 22px 0px 0px;
+}
+
+#disclaimer a.c-button[role=button].collapse-section.section-title h4 {
+    color: #2F2F32;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 0;
+    width: 100%;
+}
+
+#disclaimer a.c-button[role=button].collapse-section.section-title.active .icon-collapse {
+    transform: rotate(180deg);
+}
+
+#disclaimer .section-content-load {
+    min-height: 0;
+    max-height: 0;
+    width: 100%;
+    padding: 0px 5%;
+    transition: max-height 0.4s ease-out;
+}
+
+#disclaimer .section-color-grey {
+    background-color: #EBEBEB;
+}
+
+#disclaimer .section-color-white {
+    background-color: #ffffff;
+}
+
+#disclaimer .section-content-load {
+    overflow: hidden;
+}
+
+#disclaimer .c-glyph.icon-collapse {
+    font-family: MWF-MDL2;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.4s ease-out;
+    transform-origin: 50% 50%;
+    margin-top: 10px;
+}
+
+#disclaimer a.c-button[role=button].collapse-section {
+    display: block;
+    min-width: 0;   
+    margin-top: 0; 
+    padding: 0; 
+    background-color: transparent;
+}
+
+#disclaimer button.c-button:active, 
+#disclaimer a.c-button[role="button"]:active {
+    transform: none;
+}
