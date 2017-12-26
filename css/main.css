@@ -168,16 +168,17 @@ p.white{
 }
 
 .icon-officeforall{
-	width: 155px;
+	width: 189px;
+    margin: 10px 0 0 43px;
 }
 
 .icon-roamingdocuments{
-	width: 88px;
-
+	width: 112px;
+    margin-left: 24px;
 }
 
 .icon-securitythatfollowsyou{
-	width: 88px;
+	width: 114px;
 
 }
 
@@ -287,6 +288,35 @@ p.white{
 	width: 24%;
 }
 
+#migrating .container{
+	padding:6rem;
+}
+
+#migrating .main-number{
+	padding: 5.5rem 0 0 0;
+    text-align: center;
+    font-size: 160px;
+	line-height: 56px;
+}
+
+#migrating .main-number span{
+	font-size: 72px;
+}
+
+#migrating p{
+	font-size:18px;
+	line-height: 24px;
+}
+
+#migrating .tit{
+	padding-right: 26rem;
+    margin-bottom: 10rem;
+}
+
+#migrating .subtit{
+	font-family:"Segoe UI Semibold";
+}
+
 #video .right{
 	font-family:"Segoe UI Semibold";
 	font-size:36px;
@@ -305,8 +335,6 @@ HD Breakpoint
 
 @media screen and (min-width: 1024px) and (max-width: 1920px){
 
-
-
 	#hero-banner h1{
 		font-size: 72px;
 		color: #FFFFFF;
@@ -319,7 +347,6 @@ HD Breakpoint
 		color: #FFFFFF;
 		line-height: 44px;
 	}
-	
 
 }
 
