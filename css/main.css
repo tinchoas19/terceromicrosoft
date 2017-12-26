@@ -2,8 +2,11 @@ body{
 	font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
+#circle, #mobiledevices {
+	opacity: 0;
+}
 .f-cover {
-	background: url(../images/header.png);
+	background: url(../images/header_image.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50%;
@@ -45,8 +48,14 @@ p.white{
 .container-80{
 	width: 80%!important;
 }
+.object-center{
+	margin: 0 auto;
+}
 .clear-fix{
 	clear: both;
+}
+.no-pad-top{
+	padding-top: 0!important;
 }
 .pad-top-025{
 	padding-top: 4%!important;
@@ -279,10 +288,10 @@ p.white{
 }
 
 #video .right{
-		font-family:"Segoe UI Semibold";
-		font-size:36px;
-		line-height: 44px;
-		padding: 2rem 3rem 0 0;
+	font-family:"Segoe UI Semibold";
+	font-size:36px;
+	line-height: 44px;
+	padding: 2rem 3rem 0 0;
 }
 
 #video .right p.tit{
@@ -319,12 +328,7 @@ Desktop Breakpoint
 -----------------*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
-	.f-cover {
-		background: url(../img/header.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: 50%;
-	}
+	
 	
 	#hero-banner h1{
 		font-size: 62px;
@@ -361,10 +365,10 @@ Desktop Breakpoint
 
 	/*#video .left{
 		
-	}*/
+		}*/
 
-	
-}
+
+	}
 
 
 /*---------------
@@ -418,6 +422,11 @@ Mobile Breakpoint
 		font-size: 56px;
 		line-height: 62px;
 	}
+	p.tit-2{
+		font-size: 42px;
+		line-height: 50px;
+		font-family:"Segoe UI Semibold"
+	}
 	.icon-quotes {
 		width: 115px;
 	}
@@ -426,16 +435,34 @@ Mobile Breakpoint
 		line-height: 42px;
 		margin-bottom: 10%;
 	}
-	.c-arrow-headline .regular-text{
+	.regular-text{
 		font-size: 36px;
 		line-height: 42px;
 	}
-	.c-arrow-headline .container{
+	.c-arrow-headline .container-top{
 		padding-top: 9%!important;
 	}
 	#what-blocks [data-grid~=col-2] {
 		width: 8.3333333333%;
 		float: left;
+	}
+	.icon-mobiledevices {
+		width: 118px;
+	}
+	.icon-USmap {
+		width: 223px;
+	}
+	.grey-number {
+		font-size: 95px;
+		color: #505050;
+		line-height: 50px;
+		font-family:"Segoe UI Semibold"
+	}
+	.grey-text{
+		font-size: 36px;
+		line-height: 42px;
+		color: #4A4A4A;
+		padding-top: 12%;
 	}
 
 	.c-arrow-headline {
@@ -447,12 +474,46 @@ Mobile Breakpoint
 		background-size: 106vh;
 	}
 	.main-number{
-		font-size: 42px;
+		font-size: 95px;
 		color: #D33B01;
 		line-height: 56px;
 	}
-	.empower{
-		
+	.col-custom-23 {
+		width: 7%;
+	}
+	.final-text {
+		padding-left: 1%;
+		padding-right: 1%;
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.grey-number {
+		font-size: 56px;
+		color: #737373;
+		line-height: 56px;
+		font-family: "Segoe UI Semibold";
+	}
+	.orange-number {
+		font-size: 56px;
+		color: #D83B01;
+		line-height: 56px;
+		font-family: "Segoe UI Semibold";
 	}
 
+
+	.no-pad-top{
+		padding-top: 0!important;
+	}
+}
+@media screen and (max-width: 677px) {	
+	.c-arrow-headline .container {
+		padding-top: 6%!important;
+	}
+}
+
+
+@media screen and (max-width: 644px) {	
+	.c-arrow-headline .container {
+		padding-top: 0%!important;
+	}
 }
