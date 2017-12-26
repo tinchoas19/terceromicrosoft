@@ -263,6 +263,17 @@ p.white{
 	width: 24%;
 }
 
+#video .right{
+		font-family:"Segoe UI Semibold";
+		font-size:36px;
+		line-height: 44px;
+		padding: 2rem 3rem 0 0;
+}
+
+#video .right p.tit{
+	padding: 3rem 0 3.5rem 0;
+}
+
 
 /*---------------
 HD Breakpoint
@@ -338,9 +349,10 @@ Desktop Breakpoint
 
 	}
 
-	#video .right{
-		float: right;
-	}
+	/*#video .left{
+		
+	}*/
+
 	
 }
 
@@ -388,7 +400,6 @@ Mobile Breakpoint
 		color: #FFFFFF;
 		line-height: 52px;
 		max-width: 298px;
-
 	}
 	#hero-banner  p{
 		font-size: 32px;
