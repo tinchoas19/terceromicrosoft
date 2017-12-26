@@ -2,7 +2,17 @@ body{
 	font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
-
+.f-cover {
+	background: url(../images/header.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+	height: 90vh;
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
 p{
 	font-size: 18px;
 	color: #000000;
@@ -38,6 +48,9 @@ p.white{
 .clear-fix{
 	clear: both;
 }
+.pad-top-025{
+	padding-top: 4%!important;
+}
 .pad-bottom-05{
 	padding-bottom: 24px;
 }
@@ -70,7 +83,9 @@ p.white{
 	color: #000000;
 	line-height: 32px;
 }
-
+.medium-box{
+	width: 65%;
+}
 .subtit{
 	font-size: 24px;
 	color: #D33B01;
@@ -270,12 +285,7 @@ HD Breakpoint
 
 @media screen and (min-width: 1024px) and (max-width: 1920px){
 
-	.f-cover {
-		background: url(../images/header.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: 50%;
-	}
+
 
 	#hero-banner h1{
 		font-size: 72px;
@@ -349,14 +359,12 @@ Desktop Breakpoint
 Mobile Breakpoint
 -----------------*/
 
-@media screen and (max-width: 767px) {
-
-	
+@media screen and (max-width: 767px) {	
 	.f-cover {
-		background: url(../img/header.png);
+		background: url(../images/header-mobile.jpg);		
+		height: 144vh;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: 70%;
 	}
 	.c-hero>div, .m-hero-item>div {
 		position: relative;
@@ -364,7 +372,7 @@ Mobile Breakpoint
 	.c-hero>div, .m-hero-item>div {
 		height: 70vh;
 		overflow:auto;
-		margin-top:calc(40%);
+		max-width: 80%;
 		text-align: left;
 	}
 
@@ -381,19 +389,35 @@ Mobile Breakpoint
 		transform: translateY(-50%);
 
 	}
-
-
 	#hero-banner h1{
-		font-size: 60px;
+		font-size: 80px;
 		color: #FFFFFF;
-		line-height: 52px;
-		max-width: 298px;
-
+		line-height: 90px;
 	}
 	#hero-banner  p{
-		font-size: 32px;
+		font-size: 48px;
 		color: #FFFFFF;
-		line-height: 40px;
+		line-height: 55px;
+		padding-top: 38px;
+	}
+	p.tit{
+		font-size: 56px;
+		line-height: 62px;
+	}
+	.icon-quotes {
+		width: 115px;
+	}
+	.quotes p{
+		font-size: 36px;
+		line-height: 42px;
+		margin-bottom: 10%;
+	}
+	.c-arrow-headline .regular-text{
+		font-size: 36px;
+		line-height: 42px;
+	}
+	.c-arrow-headline .container{
+		padding-top: 9%!important;
 	}
 	#what-blocks [data-grid~=col-2] {
 		width: 8.3333333333%;
@@ -401,11 +425,12 @@ Mobile Breakpoint
 	}
 
 	.c-arrow-headline {
-		background: url(../img/icons/arrow.png) no-repeat #e30000 -80% 50%;
-		background-size: 45vh;
-		-moz-background-size: 45vh;
-		-webkit-background-size: 45vh;
-		-o-background-size: 45vh;
+		background: url(../images/icons/arrow.png) no-repeat #e30000 232% 50%;		
+		-moz-background-size: 106vh;
+		-webkit-background-size: 106vh;
+		-o-background-size: 106vh;
+		height: 72vw;
+		background-size: 106vh;
 	}
 	.main-number{
 		font-size: 42px;
