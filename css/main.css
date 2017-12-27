@@ -42,6 +42,21 @@ p.tit{
 p.white{
 	color: #fff;
 }
+.triangle-row{
+	padding-bottom: 135px;
+	padding-top: 65px;
+}
+.triangle-text{
+	padding-top: 5%;
+}
+.triangle-image{
+
+}
+#remote{
+	padding-bottom: 135px;
+    padding-top: 50px;
+}
+
 .col-left{
 	padding-right: 5%;
 }
@@ -172,12 +187,12 @@ p.white{
 
 .icon-officeforall{
 	width: 189px;
-    margin: 10px 0 0 43px;
+	margin: 10px 0 0 43px;
 }
 
 .icon-roamingdocuments{
 	width: 112px;
-    margin-left: 24px;
+	margin-left: 24px;
 }
 
 .icon-securitythatfollowsyou{
@@ -197,10 +212,10 @@ p.white{
 	width: 52px;
 }
 .icon-calendar{
-	width: 100px;
+	width: 147px;
 }
 .icon-money{
-	width: 87px;
+	width: 127px;
 }
 .main-number{
 	font-size: 160px;
@@ -228,6 +243,16 @@ p.white{
 	font-size: 54px;
 	color: #D33B01;
 	line-height: 56px;
+}
+.red-number.six{
+	margin-top: 90%;
+    margin-left: -20%;
+}
+.red-number.money{
+	padding-top: 51%;
+}
+.sub-money-text p{
+	padding-top: 12%;
 }
 #workplace{
 	height: 456px;
@@ -297,9 +322,9 @@ p.white{
 
 #migrating .main-number{
 	padding: 6.5rem 0 0 0;
-    text-align: center;
-    font-family:"Segoe UI Semibold";
-    font-size: 160px;
+	text-align: center;
+	font-family:"Segoe UI Semibold";
+	font-size: 160px;
 	line-height: 56px;
 }
 
@@ -314,8 +339,8 @@ p.white{
 
 #migrating .tit{
 	padding: 2.5rem 24rem 0 1rem;
-    margin-bottom: 10rem;
-    font-size: 36px;
+	margin-bottom: 10rem;
+	font-size: 36px;
 	line-height: 44px;
 }
 
@@ -395,7 +420,7 @@ Desktop Breakpoint
 		width: 100%;
 
 	}
-
+	
 	/*#video .left{
 		
 		}*/
