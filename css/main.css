@@ -21,6 +21,9 @@ p{
 	color: #000000;
 	line-height: 24px;
 }
+.inner{
+	
+}
 .text-center{
 	text-align: center;
 }
@@ -293,8 +296,9 @@ p.white{
 }
 
 #migrating .main-number{
-	padding: 5.5rem 0 0 0;
+	padding: 6.5rem 0 0 0;
     text-align: center;
+    font-family:"Segoe UI Semibold";
     font-size: 160px;
 	line-height: 56px;
 }
@@ -309,8 +313,10 @@ p.white{
 }
 
 #migrating .tit{
-	padding-right: 26rem;
+	padding: 2.5rem 24rem 0 1rem;
     margin-bottom: 10rem;
+    font-size: 36px;
+	line-height: 44px;
 }
 
 #migrating .subtit{
