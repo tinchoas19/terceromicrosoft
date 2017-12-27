@@ -187,12 +187,12 @@ p.white{
 
 .icon-officeforall{
 	width: 189px;
-	margin: 10px 0 0 43px;
+	margin: 10px 0 0 0px;
 }
 
 .icon-roamingdocuments{
 	width: 112px;
-	margin-left: 24px;
+	
 }
 
 .icon-securitythatfollowsyou{
@@ -347,14 +347,16 @@ p.white{
 .col-custom-23{
 	width: 24%;
 }
-
+#migrating{
+	padding-bottom: 135px;
+}
 #migrating .container{
 	padding:6rem;
 }
 
 #migrating .main-number{
 	padding: 6.5rem 0 0 0;
-	text-align: center;
+	text-align: left;
 	font-family:"Segoe UI Semibold";
 	font-size: 160px;
 	line-height: 56px;
@@ -364,9 +366,10 @@ p.white{
 	font-size: 72px;
 }
 
-#migrating p{
+#migrating .down-text{
 	font-size:18px;
 	line-height: 24px;
+	padding-right: 45px;
 }
 
 #migrating .tit{
@@ -378,19 +381,36 @@ p.white{
 
 #migrating .subtit{
 	font-family:"Segoe UI Semibold";
+	color: #D33B01;
 }
-
+#video{
+	padding-bottom: 135px;
+}
 #video .right{
 	font-family:"Segoe UI Semibold";
 	font-size:36px;
 	line-height: 44px;
 	padding: 2rem 3rem 0 0;
 }
-
+#video .icon-arrow{
+	width: 92px;
+}
 #video .right p.tit{
 	padding: 3rem 0 3.5rem 0;
 }
-
+#disclaimer{
+	padding-top: 40px;
+	padding-bottom: 124px;
+}
+#disclaimer p.left{
+	padding-right: 25px;
+}
+#disclaimer p.right{
+	padding-left: 25px;
+}
+#disclaimer .arrow{
+	padding-bottom: 53px;
+}
 
 /*---------------
 HD Breakpoint
