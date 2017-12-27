@@ -54,7 +54,7 @@ p.white{
 }
 #remote{
 	padding-bottom: 135px;
-    padding-top: 50px;
+	padding-top: 50px;
 }
 
 .col-left{
@@ -246,7 +246,7 @@ p.white{
 }
 .red-number.six{
 	margin-top: 90%;
-    margin-left: -20%;
+	margin-left: -20%;
 }
 .red-number.money{
 	padding-top: 51%;
@@ -256,6 +256,38 @@ p.white{
 }
 #workplace{
 	height: 456px;
+}
+/*SECOND CHART*/
+#mobile-gains{
+	padding-bottom: 141px;
+	padding-top: 50px;
+}
+.second-chart p{
+	font-size: 26px;
+	line-height: 0px;
+	text-align: center;
+	font-family:"Segoe UI Semibold";
+}
+.second-chart p.white{
+	color: #fff;
+}
+.second-chart .square{
+	height: 40px;
+}
+.second-chart .bottom-row{
+	border-bottom: 2px solid #979797;
+}
+.second-chart .small-square{
+	height: 36px;
+	margin-top: 4px;
+}
+
+#office{
+	height: 470px;
+}
+#office.c-arrow-headline{
+	background: url(../images/icons/arrow.png) no-repeat #e30000 -23% 50%;
+	background-size: 54vw;
 }
 /*CHART CUSTOM*/
 .square{	
@@ -338,7 +370,7 @@ p.white{
 }
 
 #migrating .tit{
-	padding: 2.5rem 24rem 0 1rem;
+	padding: 2.5rem 0 0 1rem;
 	margin-bottom: 10rem;
 	font-size: 36px;
 	line-height: 44px;
