@@ -2,6 +2,9 @@ body{
 	font-family:"Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
+.c-heading-1, .c-heading-2, .c-subheading-1, .c-subheading-2 {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif!importantf;
+}
 #circle, #mobiledevices {
 	opacity: 0;
 }
@@ -37,7 +40,7 @@ p.tit{
 	font-size: 36px;
 	color: #000000;
 	line-height: 44px;
-	font-family:"Segoe UI Semibold"
+	font-weight: 600;
 }
 p.white{
 	color: #fff;
@@ -221,7 +224,7 @@ p.white{
 	font-size: 160px;
 	color: #D33B01;
 	line-height: 56px;
-	font-family:"Segoe UI Semibold"
+	font-weight: 600;
 }
 .arrows-bk{
 	align-items: left;
@@ -266,7 +269,7 @@ p.white{
 	font-size: 26px;
 	line-height: 0px;
 	text-align: center;
-	font-family:"Segoe UI Semibold";
+	font-weight: 600;;
 }
 .second-chart p.white{
 	color: #fff;
@@ -357,7 +360,7 @@ p.white{
 #migrating .main-number{
 	padding: 6.5rem 0 0 0;
 	text-align: left;
-	font-family:"Segoe UI Semibold";
+	font-weight: 600;;
 	font-size: 160px;
 	line-height: 56px;
 }
@@ -380,14 +383,14 @@ p.white{
 }
 
 #migrating .subtit{
-	font-family:"Segoe UI Semibold";
+	font-weight: 600;;
 	color: #D33B01;
 }
 #video{
 	padding-bottom: 135px;
 }
 #video .right{
-	font-family:"Segoe UI Semibold";
+	font-weight: 600;;
 	font-size:36px;
 	line-height: 44px;
 	padding: 2rem 3rem 0 0;
@@ -535,7 +538,7 @@ Mobile Breakpoint
 	p.tit-2{
 		font-size: 42px;
 		line-height: 50px;
-		font-family:"Segoe UI Semibold"
+		font-weight: 600;
 	}
 	.icon-quotes {
 		width: 115px;
@@ -566,7 +569,7 @@ Mobile Breakpoint
 		font-size: 95px;
 		color: #505050;
 		line-height: 50px;
-		font-family:"Segoe UI Semibold"
+		font-weight: 600;
 	}
 	.grey-text{
 		font-size: 36px;
