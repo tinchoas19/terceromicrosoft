@@ -3,7 +3,7 @@ body{
 
 }
 .c-heading-1, .c-heading-2, .c-subheading-1, .c-subheading-2 {
-    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif!importantf;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif!important;
 }
 #circle, #mobiledevices {
 	opacity: 0;
@@ -161,7 +161,7 @@ p.white{
 }
 
 .c-arrow-headline {
-	background: url(../images/icons/arrow.png) no-repeat #e30000 -12% 50%;
+	background: url(../images/icons/arrow.png) no-repeat #D33B01 -12% 50%;
 	float: left;
 	width: 100%;
 	background-size: 40vw;
@@ -289,7 +289,7 @@ p.white{
 	height: 470px;
 }
 #office.c-arrow-headline{
-	background: url(../images/icons/arrow.png) no-repeat #e30000 -23% 50%;
+	background: url(../images/icons/arrow.png) no-repeat #D33B01 -23% 50%;
 	background-size: 54vw;
 }
 /*CHART CUSTOM*/
@@ -500,7 +500,7 @@ Mobile Breakpoint
 	}
 	.c-hero>div, .m-hero-item>div {
 		height: 70vh;
-		overflow:auto;
+		/*overflow:auto;*/
 		max-width: 80%;
 		text-align: left;
 	}
@@ -577,9 +577,8 @@ Mobile Breakpoint
 		color: #4A4A4A;
 		padding-top: 12%;
 	}
-
 	.c-arrow-headline {
-		background: url(../images/icons/arrow.png) no-repeat #e30000 232% 50%;		
+		background: url(../images/icons/arrow.png) no-repeat #D33B01 232% 50%;		
 		-moz-background-size: 106vh;
 		-webkit-background-size: 106vh;
 		-o-background-size: 106vh;
@@ -602,7 +601,6 @@ Mobile Breakpoint
 	}
 	.grey-number {
 		font-size: 56px;
-		color: #737373;
 		line-height: 56px;
 		font-family: "Segoe UI Semibold";
 	}
@@ -624,9 +622,161 @@ Mobile Breakpoint
 	}
 }
 
-
 @media screen and (max-width: 644px) {	
 	.c-arrow-headline .container {
 		padding-top: 0%!important;
 	}
 }
+@media screen and (max-width: 376px) {
+	#hero-banner h1 {
+    font-size: 40px;
+    line-height: 45px;
+	}
+	#hero-banner p {
+    font-size: 24px;
+    line-height: 26px;
+    padding-top: 16px;
+	}
+  .f-cover {
+    height: 80vh;
+  }
+  .m-hero-item>div {
+    padding: 0px;
+    max-width: 100%;
+  }
+  p.tit {
+    font-size: 28px;
+    line-height: 31px;
+	}
+	p.tit-2 {
+    font-size: 21px;
+    line-height: 25px;
+	}
+	.icon-quotes {
+    width: 55px;
+	}
+	.pad-bottom-1 {
+    padding-bottom: 33px;
+	}
+	.pad-top-1 {
+	    padding-top: 33px;
+	}
+	.quotes p {
+	    font-size: 18px;
+	    line-height: 21px;
+	    margin-bottom: 5%;
+	}
+	.col-mobile {
+		float: left;
+	}
+	.col-3-mobile {
+		width: 25%;
+	}
+	.col-9-mobile {
+		width: 75%;
+	}
+	.col-5-mobile {
+		width: 41.66%;
+	}
+	.col-7-mobile {
+		width: 58.33%;
+	}
+	.col-8-mobile {
+		width: 66.66%;
+	}
+	.col-4-mobile {
+		width: 33.33%;
+	}
+	.regular-text {
+    font-size: 18px;
+    line-height: 21px;
+	}
+	.grey-text {
+    font-size: 18px;
+    line-height: 21px;
+  }
+	.c-arrow-headline {
+    background: url(../images/icons/arrow.png) no-repeat 150% 50%;
+    -moz-background-size: 106vh;
+    -webkit-background-size: 106vh;
+    -o-background-size: 106vh;
+    height: 72vw;
+    background-size: 60vh;
+    background-color: rgba(211,59,1,1);
+  }
+  .container-80 {
+    width: 90%!important;
+	}
+	#migrating .main-number,
+	.main-number {
+    font-size: 47px;
+  }
+  #migrating .main-number span {
+  	font-size: 31px;
+  }
+  #workplace {
+  	height: auto;
+  }
+  #remote {
+  	padding-bottom: 0;
+  	padding-top: 0;
+  }
+  .red-number.six {
+  	font-size: 47px;
+    margin-top: 0;
+    margin-left: 0;
+	}
+	.red-number.money {
+		font-size: 47px;
+    padding-top: 0;
+	}
+	.red-number.six, 
+	.red-number.money {
+		padding-left: 25px;
+		padding-top: 25px;
+	}
+	.sub-money-text p {
+    padding-top: 5%;
+	}
+	#migrating .container {
+    padding: 6vw;
+	}
+	#migrating .tit {
+    padding: 0;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 0;
+	}
+	.text-center-mobile {
+		text-align: center;
+		text-align: -webkit-center;
+		text-align: -moz-center;
+		text-align: -ms-center;
+	}
+	#migrating .down-text {
+    padding-right: 0;
+	}
+	#migrating {
+    padding-bottom: 0;
+	}
+	#video .right {
+    padding: 0;
+	}
+	p.tit.empower {
+		line-height: 35px;
+	}
+	#video {
+    padding-bottom: 30px;
+	}
+	#video .right p.tit {
+    padding: 3rem 0 2rem 0;
+	}
+	#video .btn-learn-more img {
+    width: 100%;
+	}
+}	
+
+@media (min-width: 1025px) {}
+@media screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1024px) and (min-width: 751px)  {}
+@media screen and (max-width: 375px) {}
