@@ -599,16 +599,14 @@ Mobile Breakpoint
 		font-size: 32px;
 		line-height: 40px;
 	}
-	.grey-number {
+	.grey-number,
+	.orange-number {
 		font-size: 56px;
 		line-height: 56px;
 		font-family: "Segoe UI Semibold";
 	}
 	.orange-number {
-		font-size: 56px;
 		color: #D83B01;
-		line-height: 56px;
-		font-family: "Segoe UI Semibold";
 	}
 
 
@@ -688,7 +686,10 @@ Mobile Breakpoint
 		width: 33.33%;
 	}
 	.col-2-mobile {
-    width: 16.6666666667%;
+    width: 16.66%;
+	}
+	.col-1-mobile {
+    width: 8.33%;
 	}
 	.regular-text {
     font-size: 18px;
@@ -783,6 +784,15 @@ Mobile Breakpoint
 	.square {
     height: 44px;
 	}
+	.final-text {
+		font-size: 16px;
+    line-height: 20px;
+	}
+	.orange-number,
+	.grey-number {
+    font-size: 28px;
+    line-height: 28px;
+  }
 }	
 
 @media (min-width: 1025px) {}
