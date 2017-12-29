@@ -687,6 +687,9 @@ Mobile Breakpoint
 	.col-4-mobile {
 		width: 33.33%;
 	}
+	.col-2-mobile {
+    width: 16.6666666667%;
+	}
 	.regular-text {
     font-size: 18px;
     line-height: 21px;
@@ -773,6 +776,12 @@ Mobile Breakpoint
 	}
 	#video .btn-learn-more img {
     width: 100%;
+	}
+	.year {
+    font-size: 18px;
+	}
+	.square {
+    height: 44px;
 	}
 }	
 
