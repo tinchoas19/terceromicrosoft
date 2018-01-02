@@ -480,8 +480,32 @@ p.white{
 HD Breakpoint
 -----------------*/
 
-@media screen and (min-width: 1024px) and (max-width: 1920px){
 
+
+
+@media screen and (min-width: 1024px) and (max-width: 1920px){
+	.column-42{
+		width: 46%!important;
+	}
+	.icon-money {
+		width: 117px;
+		padding-top: 29%;
+	}
+	#roi.c-arrow-headline {
+		height: 30vw;
+		background-size: 47vw!important;
+		background-position: -5%!important;
+	}
+	#office.c-arrow-headline {
+		height: 30vw;
+		background-size: 47vw!important;
+		background-position: -5%!important;
+	}
+	#mobile-world.c-arrow-headline {
+		height: 30vw;
+		background-size: 47vw!important;
+		background-position: -5%!important;
+	}
 	#hero-banner h1{
 		font-size: 72px;
 		color: #FFFFFF;
@@ -497,6 +521,16 @@ HD Breakpoint
 
 }
 
+@media screen and (min-width: 1380px) and (max-width: 1920px){
+	.column-42{
+		width: 42%!important;
+	}
+}
+@media screen and (min-width: 1650px) and (max-width: 1920px){
+	.column-42{
+		width: 39%!important;
+	}
+}
 /*---------------
 Desktop Breakpoint
 -----------------*/
