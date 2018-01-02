@@ -31,7 +31,7 @@ jQuery(document).ready(function($){
   });
 });
 
-var lastScrollTop = 0;
+/*var lastScrollTop = 0;
 var lastScrollTopFeedback = 0;
 var goingUp = false;
 var psychologyQuickVisible = true;
@@ -317,7 +317,7 @@ var emailButton = (function () {
     }
 })();
 
-emailButton.init({ introduction: "#what-blocks" });
+emailButton.init({ introduction: "#what-blocks" });*/
 
 
 
