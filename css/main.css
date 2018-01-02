@@ -920,6 +920,10 @@ Mobile Breakpoint
 		display: block;
 	}
 
+	#migrating {
+	    padding-bottom: 57px;
+	}
+
 	#migrating .main-number {
 	    padding: 0.8rem 0 0 0;
 	    font-size: 100px;
