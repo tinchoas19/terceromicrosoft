@@ -31,7 +31,7 @@ jQuery(document).ready(function($){
   });
 });
 
-/*var lastScrollTop = 0;
+var lastScrollTop = 0;
 var lastScrollTopFeedback = 0;
 var goingUp = false;
 var psychologyQuickVisible = true;
@@ -41,7 +41,7 @@ var controller = new ScrollMagic.Controller();
 
 
 
-/*jQuery(document).ready(function($){
+jQuery(document).ready(function($){
 
 
 
@@ -86,7 +86,7 @@ var controller = new ScrollMagic.Controller();
           }
           lastScrollTop = st;
       } else {
-        var introPos = $('#insight-numbers').offset().top;
+        var introPos = $('#what-blocks').offset().top;
       var viewportTop = $(window).scrollTop();
       var topLimit = introPos - $(window).height() / 2;
       if (viewportTop > topLimit) {
@@ -246,7 +246,7 @@ var controller = new ScrollMagic.Controller();
         }
     }
 })();
-linkButton.init({ introduction: '#insights' });
+linkButton.init({ introduction: '#what-blocks' });
 
 
 // EMAIL BUTTON
@@ -317,7 +317,7 @@ var emailButton = (function () {
     }
 })();
 
-emailButton.init({ introduction: "" });
+emailButton.init({ introduction: "#what-blocks" });
 
 
 

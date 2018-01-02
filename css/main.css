@@ -911,6 +911,71 @@ Mobile Breakpoint
 @media screen and (max-width: 375px) {}
 
 
+/*DOWNLOAD*/
+#quickdl {
+	display: none;
+}
+
+.demo {
+	position: fixed;
+	z-index: 101;
+	right: 0;
+	top: 25%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+.c-download-trigger {
+    height: 46px;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1;
+    display: inline-block;
+    padding: 7px;
+    outline: none;
+}
+
+.f-download-trigger-color-orange {
+    background-color: #d83b01;
+}
+
+.f-download-trigger-color-blue {
+    background-color: #0078d7;
+}
+
+.c-glyph.glyph-download:before {
+    padding: 0 5px;
+}
+
+.demo__active {
+    width: 0;
+    display: inline-block;
+    -webkit-transition: width .55s ease;
+  	-moz-transition: width .55s ease;
+  	-ms-transition: width .55s ease;
+  	-o-transition: width .55s ease;
+  	transition: width .55s ease;
+  	overflow: hidden;
+}
+
+.text_dwbutton {
+	text-transform: uppercase;
+    font-size: 16px;
+    vertical-align: top;
+    padding-right: 5px;
+    padding-left: 7px;
+    width: 140px;
+    display: inline-block;
+    padding-top: 4px;    
+}
+#download-pdf a:hover, #download-pdf a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+
 #disclaimer.disclaimer {
     padding: 70px 0;
 }
@@ -1026,4 +1091,103 @@ Mobile Breakpoint
 #disclaimer button.c-button:active, 
 #disclaimer a.c-button[role="button"]:active {
     transform: none;
+}
+
+#emailButton{
+    position:fixed;
+    top: calc(25% - 79px);
+    right:0;
+    background-color:black;
+    z-index: 100005;
+    display: none;
+}
+#emailButton a {
+    display:block;
+    width:46px;
+    height:46px;
+    text-indent:999em;
+    padding:15px 10px;
+}
+#emailButton a:hover {
+    background-color:#333333;
+}
+#emailButton a svg {
+    display:block;
+    width:100%;
+}
+
+/*FEEDBACK*/
+#feedbackButton #feedback-cta {
+    z-index: 7;
+    position: fixed;
+    right: -46px;
+    padding: 20px;
+    background-color: #CCCCCC;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+    top: calc(25% + 65px);
+    -webkit-transform: translateY(-70%);
+    transform: translateY(-70%);
+    transition: right .3s ease; 
+}
+#feedbackButton #feedback-cta .sm {
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 5px; 
+}
+#feedbackButton #feedback-cta .sm svg {
+    width: 36px;
+    height: 36px; 
+}
+#feedbackButton #feedback-cta .lg {
+    display: none;
+    color: white;
+    font-weight: bold;
+    line-height: 40px; 
+}
+#feedbackButton #feedback-cta .lg p {
+    color: #000;
+    font-weight: normal;
+    line-height: normal; 
+    padding: 0;
+}
+#feedbackButton #feedback-cta .thankyou {
+    display: none; 
+}
+#feedbackButton #feedback-cta .thankyou .c-glyph:after {
+    content: "\E73E";
+    display: block;
+    font-size: 82px;
+    line-height: 90px;
+    text-align: center;
+    color: white; 
+}
+#feedbackButton #feedback-cta button.c-button {
+    font-weight: bold;
+    color: white;
+    width: 58px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    min-width: 0;
+    padding: 0;
+    margin-right: 5px;
+    margin-top: 15px; 
+}
+#feedbackButton #feedback-cta.active .sm {
+    display: none; 
+}
+#feedbackButton #feedback-cta.active .lg {
+    display: block; 
+}
+#feedbackButton #feedback-cta.enter {
+    right: 0;
+}
+#feedbackButton #feedback-cta.active {
+    width: 172px;
+    height: 130px;
+    right: 0;
+    top: calc(25% + 118px);
 }
