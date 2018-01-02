@@ -1,3 +1,5 @@
+var $ = jQuery;
+
 jQuery(document).ready(function($){
   $(window).load(function(){
       var acc = document.getElementsByClassName('collapse-section');
@@ -25,21 +27,21 @@ jQuery(document).ready(function($){
           }
         }
       }
-
+      
   });
 });
 
-var lastScrollTop = 0;
+/*var lastScrollTop = 0;
 var lastScrollTopFeedback = 0;
 var goingUp = false;
 var psychologyQuickVisible = true;
 var controller = new ScrollMagic.Controller();
 
-var $ = jQuery;
 
 
 
-jQuery(document).ready(function($){
+
+/*jQuery(document).ready(function($){
 
 
 
@@ -315,7 +317,7 @@ var emailButton = (function () {
     }
 })();
 
-emailButton.init({ introduction: "#inights" });
+emailButton.init({ introduction: "" });
 
 
 
@@ -362,4 +364,4 @@ emailButton.init({ introduction: "#inights" });
 
 	tl2.from(enmascarado2, 2, {ease: Power2.easeOut, y:100, transformOrigin: "bottom center"});
 
-});
+});*/
