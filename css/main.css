@@ -3,7 +3,7 @@ body{
 
 }
 .c-heading-1, .c-heading-2, .c-subheading-1, .c-subheading-2 {
-    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+	font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif!important;
 }
 #circle, #mobiledevices {
 	opacity: 0;
@@ -36,11 +36,15 @@ p{
 .text-left{
 	text-align: left;
 }
+.text-60{
+	width: 58%;
+}
 p.tit{
 	font-size: 36px;
 	color: #000000;
 	line-height: 44px;
 	font-weight: 600;
+	font-family: "Segoe UI Semibold";
 }
 p.white{
 	color: #fff;
@@ -54,10 +58,6 @@ p.white{
 }
 .triangle-image{
 
-}
-#remote{
-	padding-bottom: 135px;
-	padding-top: 50px;
 }
 
 .col-left{
@@ -79,7 +79,7 @@ p.white{
 	padding-top: 0!important;
 }
 .pad-top-025{
-	padding-top: 4%!important;
+	padding-top: 6%!important;
 }
 .pad-bottom-05{
 	padding-bottom: 24px;
@@ -161,13 +161,17 @@ p.white{
 }
 
 .c-arrow-headline {
-	background: url(../images/icons/arrow.png) no-repeat #D33B01 -12% 50%;
+	background: url(../images/icons/arrow.png) no-repeat #D33B01;
 	float: left;
 	width: 100%;
-	background-size: 40vw;
+	background-size: 35vw!important;
+	background-position: -2%!important;
 	-moz-background-size: 40vw;
 	-webkit-background-size: 40vw;
 	-o-background-size: 40vw;
+}
+#roi.c-arrow-headline{
+	height: 432px;
 }
 
 .c-hero>div, .m-hero-item>div {
@@ -206,25 +210,34 @@ p.white{
 .icon-organizationadopting{
 	width: 100%;
 }
-
+.icon-text-box{
+	padding-left: 8%;
+	padding-top: 2%;
+}
 .icon-USmap{
-	width: 128px;
+	width: 230px;
 }
 
 .icon-mobiledevices{
-	width: 52px;
+	width: 104px;
 }
 .icon-calendar{
 	width: 147px;
 }
 .icon-money{
 	width: 127px;
+	padding-top: 29%;
 }
 .main-number{
 	font-size: 160px;
 	color: #D33B01;
 	line-height: 56px;
 	font-weight: 600;
+	font-family: "Segoe UI Semibold";
+	padding-top: 13%;
+}
+#office .orange-text-position{
+	margin-top: -26px;
 }
 .arrows-bk{
 	align-items: left;
@@ -243,22 +256,36 @@ p.white{
 	line-height: 56px;
 }
 .red-number{
-	font-size: 54px;
+	font-size: 72px;
 	color: #D33B01;
 	line-height: 56px;
 }
 .red-number.six{
-	margin-top: 90%;
-	margin-left: -20%;
+	margin-top: 28%;
+	margin-left: 9%;
 }
 .red-number.money{
-	padding-top: 51%;
+	padding-top: 43%;
 }
 .sub-money-text p{
+	padding-top: 8%;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600!important;
+	font-family: "Segoe UI Semibold"!important;
+}
+.sub-six-text p{
 	padding-top: 12%;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600!important;
+	font-family: "Segoe UI Semibold"!important;
 }
 #workplace{
 	height: 456px;
+}
+#mobile-world{
+	height: 428px;
 }
 /*SECOND CHART*/
 #mobile-gains{
@@ -270,6 +297,7 @@ p.white{
 	line-height: 0px;
 	text-align: center;
 	font-weight: 600;;
+	font-family: "Segoe UI Semibold";
 }
 .second-chart p.white{
 	color: #fff;
@@ -283,15 +311,25 @@ p.white{
 .second-chart .small-square{
 	height: 36px;
 	margin-top: 4px;
-}
+} 
 
 #office{
 	height: 470px;
 }
-#office.c-arrow-headline{
-	background: url(../images/icons/arrow.png) no-repeat #D33B01 -23% 50%;
-	background-size: 54vw;
+#office .tit{
+	width: 80%;
+	font-weight: 600;
+	font-family: "Segoe UI Semibold";
 }
+#office .regular-text{
+	width: 82%;
+}
+#office.c-arrow-headline{
+	background: url(../images/icons/arrow.png) no-repeat #D33B01;	
+	background-size: 40vw!important;
+	background-position: -11%!important;
+}
+
 /*CHART CUSTOM*/
 .square{	
 	height: 63px;
@@ -344,8 +382,25 @@ p.white{
 	padding-left: 2%;
 	padding-right: 2%;
 }
+#remote{
+	height: 509px;
+}
+#remote .tit-2{
+	font-size: 36px;
+	line-height: 44px;
+	font-weight: 600;
+	font-family: "Segoe UI Semibold";
+	width: 80%;
+	padding-top: 12%;
+}
 .chart-row{
 	margin-bottom: 40px;
+}
+.chart-legend{
+	width: 355px;
+	margin-left: -90px;
+	font-size: 18px;
+	line-height: 24px;
 }
 .col-custom-23{
 	width: 24%;
@@ -361,6 +416,7 @@ p.white{
 	padding: 6.5rem 0 0 0;
 	text-align: left;
 	font-weight: 600;;
+	font-family: "Segoe UI Semibold";
 	font-size: 160px;
 	line-height: 56px;
 }
@@ -373,6 +429,7 @@ p.white{
 	font-size:18px;
 	line-height: 24px;
 	padding-right: 45px;
+	width: 88%;
 }
 
 #migrating .tit{
@@ -380,17 +437,21 @@ p.white{
 	margin-bottom: 10rem;
 	font-size: 36px;
 	line-height: 44px;
+	font-weight: 600!important;
+	font-family: "Segoe UI Semibold"!important;
 }
 
 #migrating .subtit{
-	font-weight: 600;;
-	color: #D33B01;
+	font-weight: 600;
+	color: #D33B01;	
+	font-family: "Segoe UI Semibold"!important;
 }
 #video{
 	padding-bottom: 135px;
 }
 #video .right{
 	font-weight: 600;;
+	font-family: "Segoe UI Semibold";
 	font-size:36px;
 	line-height: 44px;
 	padding: 2rem 3rem 0 0;
@@ -440,9 +501,25 @@ HD Breakpoint
 Desktop Breakpoint
 -----------------*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
-	
-	
+	.icon-text-box {
+		padding-left: 6%;
+		padding-top: 2%;
+	}
+	.main-number {
+		width: 333px;
+	}
+	#workplace .regular-text{
+		padding-left: 65%;
+		width: 377px;
+		padding-top: 16%;
+	}
+	.c-arrow-headline{
+		background-size: 68vw!important;
+		background-position: -40%!important;
+	}
+	#remote .tit-2{
+		padding-top: 0;
+	}
 	#hero-banner h1{
 		font-size: 62px;
 		color: #FFFFFF;
@@ -539,6 +616,7 @@ Mobile Breakpoint
 		font-size: 42px;
 		line-height: 50px;
 		font-weight: 600;
+		font-family: "Segoe UI Semibold";
 	}
 	.icon-quotes {
 		width: 115px;
@@ -570,6 +648,7 @@ Mobile Breakpoint
 		color: #505050;
 		line-height: 50px;
 		font-weight: 600;
+		font-family: "Segoe UI Semibold";
 	}
 	.grey-text{
 		font-size: 36px;
@@ -627,42 +706,42 @@ Mobile Breakpoint
 }
 @media screen and (max-width: 376px) {
 	#hero-banner h1 {
-    font-size: 40px;
-    line-height: 45px;
+		font-size: 40px;
+		line-height: 45px;
 	}
 	#hero-banner p {
-    font-size: 24px;
-    line-height: 26px;
-    padding-top: 16px;
+		font-size: 24px;
+		line-height: 26px;
+		padding-top: 16px;
 	}
-  .f-cover {
-    height: 80vh;
-  }
-  .m-hero-item>div {
-    padding: 0px;
-    max-width: 100%;
-  }
-  p.tit {
-    font-size: 28px;
-    line-height: 31px;
+	.f-cover {
+		height: 80vh;
+	}
+	.m-hero-item>div {
+		padding: 0px;
+		max-width: 100%;
+	}
+	p.tit {
+		font-size: 28px;
+		line-height: 31px;
 	}
 	p.tit-2 {
-    font-size: 21px;
-    line-height: 25px;
+		font-size: 21px;
+		line-height: 25px;
 	}
 	.icon-quotes {
-    width: 55px;
+		width: 55px;
 	}
 	.pad-bottom-1 {
-    padding-bottom: 33px;
+		padding-bottom: 33px;
 	}
 	.pad-top-1 {
-	    padding-top: 33px;
+		padding-top: 33px;
 	}
 	.quotes p {
-	    font-size: 18px;
-	    line-height: 21px;
-	    margin-bottom: 5%;
+		font-size: 18px;
+		line-height: 21px;
+		margin-bottom: 5%;
 	}
 	.col-mobile {
 		float: left;
@@ -686,53 +765,55 @@ Mobile Breakpoint
 		width: 33.33%;
 	}
 	.col-2-mobile {
-    width: 16.66%;
+		width: 16.66%;
 	}
 	.col-1-mobile {
-    width: 8.33%;
+		width: 8.33%;
 	}
 	.regular-text {
-    font-size: 18px;
-    line-height: 21px;
+		font-size: 18px;
+		line-height: 21px;
 	}
 	.grey-text {
-    font-size: 18px;
-    line-height: 21px;
-  }
+		font-size: 18px;
+		line-height: 21px;
+	}
 	.c-arrow-headline {
-    background: url(../images/icons/arrow.png) no-repeat 150% 50%;
-    -moz-background-size: 106vh;
-    -webkit-background-size: 106vh;
-    -o-background-size: 106vh;
-    height: 72vw;
-    background-size: 60vh;
-    background-color: rgba(211,59,1,1);
-  }
-  .container-80 {
-    width: 90%!important;
+		background: url(../images/icons/arrow.png) no-repeat 150% 50%;
+		-moz-background-size: 106vh;
+		-webkit-background-size: 106vh;
+		-o-background-size: 106vh;
+		height: 72vw;
+		background-size: 60vh;
+		background-color: rgba(211,59,1,1);
+	}
+	.container-80 {
+		width: 90%!important;
 	}
 	#migrating .main-number,
 	.main-number {
-    font-size: 47px;
-  }
-  #migrating .main-number span {
-  	font-size: 31px;
-  }
-  #workplace {
-  	height: auto;
-  }
-  #remote {
-  	padding-bottom: 0;
-  	padding-top: 0;
-  }
-  .red-number.six {
-  	font-size: 47px;
-    margin-top: 0;
-    margin-left: 0;
+		font-size: 47px;
+	}
+	#migrating .main-number span {
+		font-size: 31px;
+	}
+	#workplace {
+		height: auto;
+	}
+	#remote {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+	
+	.red-number.six {
+		font-size: 47px;
+		margin-top: 0;
+		margin-left: 0;
 	}
 	.red-number.money {
 		font-size: 47px;
-    padding-top: 0;
+		padding-top: 0;
 	}
 	.red-number.six, 
 	.red-number.money {
@@ -740,16 +821,16 @@ Mobile Breakpoint
 		padding-top: 25px;
 	}
 	.sub-money-text p {
-    padding-top: 5%;
+		padding-top: 5%;
 	}
 	#migrating .container {
-    padding: 6vw;
+		padding: 6vw;
 	}
 	#migrating .tit {
-    padding: 0;
-    font-size: 18px;
-    line-height: 21px;
-    margin-bottom: 0;
+		padding: 0;
+		font-size: 18px;
+		line-height: 21px;
+		margin-bottom: 0;
 	}
 	.text-center-mobile {
 		text-align: center;
@@ -758,41 +839,41 @@ Mobile Breakpoint
 		text-align: -ms-center;
 	}
 	#migrating .down-text {
-    padding-right: 0;
+		padding-right: 0;
 	}
 	#migrating {
-    padding-bottom: 0;
+		padding-bottom: 0;
 	}
 	#video .right {
-    padding: 0;
+		padding: 0;
 	}
 	p.tit.empower {
 		line-height: 35px;
 	}
 	#video {
-    padding-bottom: 30px;
+		padding-bottom: 30px;
 	}
 	#video .right p.tit {
-    padding: 3rem 0 2rem 0;
+		padding: 3rem 0 2rem 0;
 	}
 	#video .btn-learn-more img {
-    width: 100%;
+		width: 100%;
 	}
 	.year {
-    font-size: 18px;
+		font-size: 18px;
 	}
 	.square {
-    height: 44px;
+		height: 44px;
 	}
 	.final-text {
 		font-size: 16px;
-    line-height: 20px;
+		line-height: 20px;
 	}
 	.orange-number,
 	.grey-number {
-    font-size: 28px;
-    line-height: 28px;
-  }
+		font-size: 28px;
+		line-height: 28px;
+	}
 }	
 
 @media (min-width: 1025px) {}
