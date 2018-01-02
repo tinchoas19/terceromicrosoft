@@ -907,7 +907,90 @@ Mobile Breakpoint
 
 @media (min-width: 1025px) {}
 @media screen and (max-width: 1024px) {}
-@media only screen and (max-width: 1024px) and (min-width: 751px)  {}
+
+@media only screen and (max-width: 1024px) and (min-width: 751px)  {
+			/*---------------
+	Juani
+	-----------------*/
+	.big-num-hide{
+		display: none;
+	}
+
+	#big-num-show{
+		display: block;
+	}
+
+	#migrating .main-number {
+	    padding: 0.8rem 0 0 0;
+	    font-size: 100px;
+	}
+	#migrating .main-number span {
+	    font-size: 42px;
+	}
+
+	#migrating .tit {
+	    padding: 3rem 9rem 0 0;
+	    font-size: 26px;
+	    line-height: 32px;
+	    margin-bottom: 3.5rem;
+	}
+
+	#migrating .subtit{
+		font-size:20px;
+	}
+
+	#migrating .down-text {
+	    font-size: 16px;
+	    line-height: 22px;
+	    padding-right: 0px;
+	    width: 100%;
+	}
+
+	#migrating .icon-officeforall {
+	    width: 152px;
+	}
+
+	#migrating .icon-roamingdocuments {
+	    width: 88px;
+	    margin: 8px;
+	}
+
+	#migrating .icon-securitythatfollowsyou {
+	    width: 85px;
+	    margin-top: 10px;
+	}
+
+	#migrating .text-center-mobile {
+	    height: 152px;
+	}
+
+	#video{
+		padding-bottom: 93px;
+	}
+	#video .right{
+		padding-right: 1rem;
+		padding-left: 2.3rem;
+	}
+	#video .right p.tit {
+	    padding: 3rem 0;
+	    font-size: 26px;
+	    line-height: 32px;
+	}
+	#video .icon-arrow {
+	    width: 56px;
+	}
+	#video .btn-learn-more img {
+	    width: 188px;
+	}
+	#video picture{
+		margin: 2rem 0 0 -1.5rem;
+	    width: 506px;
+	}
+
+	/*---------------
+	Fin Juani
+	-----------------*/
+}
 @media screen and (max-width: 375px) {}
 
 
