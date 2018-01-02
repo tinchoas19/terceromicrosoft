@@ -905,6 +905,14 @@ Mobile Breakpoint
 	}
 }	
 
+@media screen and (min-width: 1025px){
+	#big-num-show{
+		display: none;
+	}
+	.big-num-hide{
+		display: block;
+	}
+}
 
 @media screen and (max-width: 1025px) {
 	.icon-text-box{
@@ -997,6 +1005,14 @@ Mobile Breakpoint
 			/*---------------
 	Juani
 	-----------------*/
+	#mobile-gains-1024-show{
+		display: block;
+	}
+
+	#mobile-gains-1024-hide{
+		display: none;
+	}
+
 	.big-num-hide{
 		display: none;
 	}
