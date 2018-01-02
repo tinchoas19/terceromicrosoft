@@ -912,6 +912,12 @@ Mobile Breakpoint
 	.big-num-hide{
 		display: block;
 	}
+	#mobile-gains-1024-show{
+		display: none;
+	}
+	#mobile-gains-1024-hide{
+		display: block;
+	}
 }
 
 @media screen and (max-width: 1025px) {
@@ -1005,12 +1011,38 @@ Mobile Breakpoint
 			/*---------------
 	Juani
 	-----------------*/
+	p.tit{
+		font-size: 26px;
+		line-height: 32px;
+	}
+	#remote .tit-2 {
+	    font-size: 26px;
+	    line-height: 32px;
+	    font-weight: 600;
+	    font-family: "Segoe UI Semibold";
+	    width: 80%;
+	    padding: 3.5% 0 0 2.5%;
+	}
 	#mobile-gains-1024-show{
 		display: block;
 	}
 
 	#mobile-gains-1024-hide{
 		display: none;
+	}
+
+	#mobile-gains {
+	    padding-bottom: 175px;
+	    padding-top: 2px;
+	    padding-left: 20px;
+	}
+
+	#mobile-gains .second-chart{
+		padding-top: 7%;
+	}
+
+	#mobile-gains p.tit{
+	    padding-right: 12rem;
 	}
 
 	.big-num-hide{
