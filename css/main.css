@@ -13,7 +13,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50%;
-	height: 90vh;
+	height: 100vh;
 	width: 100%;
 	display: flex;
 	flex-flow: column;
@@ -115,10 +115,10 @@ p.white{
 	line-height: 32px;
 }
 #what-blocks {
-	padding-bottom: 70px;
+	padding-bottom: 103px;
 }
 #what-blocks img{
-	width: 86%
+	width: 95%
 }
 .medium-box{
 	width: 65%;
@@ -195,7 +195,7 @@ p.white{
 	height: 100%;
 	max-width: 2048px;
 	position: absolute;
-	top: calc(30%);
+	top: calc(37%);
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -249,6 +249,7 @@ p.white{
 }
 #it-belive .chart-title p.tit{
 	padding-top: 15%;
+	padding-right: 10%;
 }
 .main-number{
 	font-size: 160px;
@@ -354,7 +355,7 @@ p.white{
 	font-family: "Segoe UI Semibold";
 }
 #office .regular-text{
-	width: 82%;
+	width: 84%;
 }
 #office.c-arrow-headline{
 	background: url(../images/icons/arrow_transparency.png) no-repeat #D33B01;	
@@ -1205,6 +1206,88 @@ Mobile Breakpoint
 	#video picture{
 		margin: 2rem 0 0 -1.5rem;
 		width: 506px;
+	}
+
+	.f-cover {
+	    background: url(../images/header_image.jpg);
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: 1%;
+	    height: 74vh;
+	    width: 100%;
+	    display: flex;
+	    flex-flow: column;
+	    align-items: center;
+	}
+
+	#hero-banner h1 {
+	    font-size: 62px;
+	    line-height: 68px;
+	    max-width: 656px;
+	    font-weight: 600;
+	}
+
+	.c-hero>div, .m-hero-item>div {
+	    top: calc(28%);
+	}
+
+	#hero-banner p {
+	    font-size: 26px;
+	    color: #FFFFFF;
+	    line-height: 32px;
+	    max-width: 350px;
+	}
+
+	#what-blocks {
+	    padding-bottom: 11px;
+	}
+
+	#what-blocks img {
+	    width: 74%;
+	    float: right;
+	}
+
+	.quotes {
+	    padding-left: 14.5%;
+	    padding-right: 0%;
+	}
+
+	.quotes p {
+	    font-size: 20px;
+	    line-height: 28px;
+	}
+
+	.icon-quotes {
+	    width: 85px!important;
+	}
+
+	#mobile-world.c-arrow-headline {
+	    height: 297px;
+	    background-size: 68vw!important;
+	    background-position: -65%!important;
+	}
+
+	.c-arrow-headline {
+	    background-size: 68vw!important;
+	    background-position: -65%!important;
+	}
+
+	.c-arrow-headline .pad-top-025 {
+	    padding-top: 7%!important;
+	}
+
+	#it-belive .chart-title{
+		width:66.6666666667%!important;
+	}
+
+	#it-belive .chart-title p.tit {
+	    padding-top: 15%;
+	    padding-right: 2%;
+	    padding-left: 11%;
+	}
+
+	#it-belive #graph01-img{
+		width:33.3333333333%!important;
 	}
 
 	/*---------------
