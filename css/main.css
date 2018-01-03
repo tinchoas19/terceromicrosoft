@@ -502,6 +502,19 @@ p.white{
 }
 
 
+.btn-learn-more {
+    width: 246px;
+    display: block;
+    height: 78px!important;
+    line-height: 78px!important;
+    text-align: center;
+    background: #D83B01;
+    font-size: 24px;
+    color: #FFFFFF!important;
+    line-height: 21px;
+    text-decoration: none!important;
+}
+
 
 /*---------------
 HD Breakpoint
@@ -548,6 +561,7 @@ HD Breakpoint
 		color: #FFFFFF;
 		line-height: 44px;
 	}
+
 
 }
 
@@ -1095,6 +1109,18 @@ Mobile Breakpoint
 		font-size: 26px;
 		line-height: 32px;
 	}
+	.btn-learn-more {
+	    width: 186px;
+	    display: block;
+	    height: 60px!important;
+	    line-height: 60px!important;
+	    text-align: center;
+	    background: #D83B01;
+	    font-size: 17px;
+	    color: #FFFFFF!important;
+	    line-height: 21px;
+	    text-decoration: none!important;
+	}
 	#remote .tit-2 {
 		font-size: 26px;
 		line-height: 32px;
@@ -1552,6 +1578,103 @@ Mobile Breakpoint
 .icon-money {
     width: 78px;
     padding-top: 0%;
+}
+
+.red-number.money {
+    font-size: 47px;
+    padding-top: 13%!important;
+}
+
+.sub-money-text p {
+    padding-top: 5%;
+    letter-spacing: -0.2px;
+}
+
+#remote {
+    height: 492px;
+}
+
+#mobile-gains {
+    padding-top: 0;
+    padding-bottom: 210px;
+}
+
+#mobile-gains p.tit {
+    font-size: 21px;
+    line-height: 25px;
+    padding-right: 8%;
+    padding-bottom: 30px;
+}
+
+.second-chart{
+	display: none;
+}
+
+#office .tit {
+    width: 86%;
+    padding-top: 14%;
+}
+
+#office .regular-text {
+    padding-right: 0%;
+    letter-spacing: -0.09px;
+}
+
+#office {
+    height: 354px;
+}
+
+#office.c-arrow-headline {
+    background-size: 215vw!important;
+    background-position: 77%!important;
+}
+
+#migrating .main-number {
+    padding: 23rem 0 26px 0;
+}
+
+#migrating .tit {
+    letter-spacing: -0.4px;
+}
+
+.icon-officeforall {
+    width: 148px;
+}
+
+#migrating .down-text {
+    font-size: 18px;
+    line-height: 21px;
+    padding-right: 0;
+    width: 100%;
+}
+
+.icon-roamingdocuments {
+    width: 99px;
+}
+
+.icon-securitythatfollowsyou {
+    width: 103px;
+}
+
+#video .icon-arrow {
+    width: 60px;
+}
+
+#video .right p.tit {
+    padding: 1.6rem 0 2rem 0;
+}
+
+.btn-learn-more{
+	width: 100%;
+	display: block;
+	height: 60px!important;
+	line-height: 60px!important;
+	text-align: center;
+	background: #D83B01;
+	font-size: 18px;
+	color: #FFFFFF!important;
+	line-height: 21px;
+	text-decoration: none!important;
 }
 
 }	
