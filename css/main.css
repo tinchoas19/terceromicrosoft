@@ -55,6 +55,7 @@ p.white{
 }
 .triangle-text{
 	padding-top: 5%;
+	padding-right: 2%;
 }
 .triangle-image{
 
@@ -102,9 +103,9 @@ p.white{
 .icon-quotes{
 	width: 85px;
 }
-.quotes{
+.quotes {
 	padding-left: 3.5%;
-	padding-right: 6.1%;
+	padding-right: 18.1%;
 }
 .quotes p{
 	padding: 0;
@@ -112,6 +113,12 @@ p.white{
 	font-size: 24px;
 	color: #000000;
 	line-height: 32px;
+}
+#what-blocks {
+	padding-bottom: 70px;
+}
+#what-blocks img{
+	width: 86%
 }
 .medium-box{
 	width: 65%;
@@ -126,6 +133,8 @@ p.white{
 	color: #000000;
 	line-height: 32px;
 }
+
+
 
 .bg-light-color{
 	background-color: #E6E6E6;
@@ -146,6 +155,7 @@ p.white{
 	text-decoration: none;
 }
 
+
 .main-button:hover {
 	background: #dc4710;
 	text-decoration: none;
@@ -161,7 +171,7 @@ p.white{
 }
 
 .c-arrow-headline {
-	background: url(../images/icons/arrow.png) no-repeat #D33B01;
+	background: url(../images/icons/arrow_transparency.png) no-repeat #D33B01;
 	float: left;
 	width: 100%;
 	background-size: 35vw!important;
@@ -234,13 +244,19 @@ p.white{
 	width: 127px;
 	padding-top: 29%;
 }
+#it-belive {
+	padding-bottom: 15px;
+}
+#it-belive .chart-title p.tit{
+	padding-top: 15%;
+}
 .main-number{
 	font-size: 160px;
 	color: #D33B01;
 	line-height: 56px;
 	font-weight: 600;
 	font-family: "Segoe UI Semibold";
-	padding-top: 13%;
+	padding-top: 9%;
 }
 #office .orange-text-position{
 	margin-top: -26px;
@@ -250,21 +266,31 @@ p.white{
 	background: url(../images/icons/theworkplaceischanging.svg);
 	background-repeat: no-repeat;
 	background-size: 30%;
-	background-position: 105%;
+	background-position: 80%;
 	display: flex;
 	height: 100%;
 	flex-flow: column;
 	width: 100%;
 }
+#roi .regular-text{
+	width: 62%;
+}
+#workplace .pad-top-25{
+	padding-top: 21%;
+}
 .grey-number{
 	font-size: 72px;
 	color: #505050;
 	line-height: 56px;
+	font-weight: 600;
+	font-family: "Segoe UI Semibold";
 }
 .red-number{
 	font-size: 72px;
 	color: #D33B01;
 	line-height: 56px;
+	font-weight: 600;
+	font-family: "Segoe UI Semibold";
 }
 .red-number.six{
 	margin-top: 28%;
@@ -331,14 +357,15 @@ p.white{
 	width: 82%;
 }
 #office.c-arrow-headline{
-	background: url(../images/icons/arrow.png) no-repeat #D33B01;	
+	background: url(../images/icons/arrow_transparency.png) no-repeat #D33B01;	
 	background-size: 40vw!important;
 	background-position: -11%!important;
 }
 
 /*CHART CUSTOM*/
 .square{	
-	height: 63px;
+	height: 100px;
+	padding-top: 1%;
 }
 .orange-square{
 	background: #D33B01;
@@ -348,6 +375,10 @@ p.white{
 }
 .dark-grey-square{
 	background: #737373;
+}
+.dark-grey-number{
+	font-weight: 600;
+	font-family: "Segoe UI Semibold";
 }
 .border-top-grey{
 	border-top: 2px solid #E6E6E6;
@@ -460,7 +491,7 @@ p.white{
 	font-family: "Segoe UI Semibold";
 	font-size:36px;
 	line-height: 44px;
-	padding: 2rem 3rem 0 0;
+	padding: 5rem 3rem 0 0;
 }
 #video .icon-arrow{
 	width: 92px;
@@ -484,22 +515,25 @@ HD Breakpoint
 	}
 	.icon-money {
 		width: 117px;
-		padding-top: 29%;
+		padding-top: 35%;
+	}
+	#mobile-gains .tit{
+
 	}
 	#roi.c-arrow-headline {
-		height: 30vw;
-		background-size: 47vw!important;
-		background-position: -5%!important;
+		height: 432px;
+		background-size: 61vw!important;
+		background-position: -34%!important;
 	}
 	#office.c-arrow-headline {
-		height: 30vw;
-		background-size: 47vw!important;
-		background-position: -5%!important;
+		height: 544px;
+		background-size: 71vw!important;
+		background-position: -71%!important;
 	}
 	#mobile-world.c-arrow-headline {
-		height: 30vw;
-		background-size: 47vw!important;
-		background-position: -5%!important;
+		height: 428px;
+		background-size: 56vw!important;
+		background-position: -22%!important;
 	}
 	#hero-banner h1{
 		font-size: 72px;
@@ -686,7 +720,7 @@ Mobile Breakpoint
 		padding-top: 12%;
 	}
 	.c-arrow-headline {
-		background: url(../images/icons/arrow.png) no-repeat #D33B01 232% 50%;		
+		background: url(../images/icons/arrow_transparency.png) no-repeat #D33B01 232% 50%;		
 		-moz-background-size: 106vh;
 		-webkit-background-size: 106vh;
 		-o-background-size: 106vh;
@@ -744,7 +778,37 @@ Mobile Breakpoint
 		padding-top: 16px;
 	}
 	.f-cover {
-		height: 80vh;
+		height: 100vh;
+	}
+	.quotes{
+		padding-right: 0;
+	}
+	#workplace .regular-text{
+		width: 110%!important;
+		margin-left: -12px;;
+	}
+	#happier{
+		padding-top: 80%;
+	}
+	#what-blocks img {
+		width: 65px;
+	}
+	#what-blocks {
+		padding-bottom: 0;
+	}
+	#migrating .main-number {
+		padding: 27.5rem 0 26px 0;
+	}
+	#migrating .tit {
+		padding-bottom: 26px;
+	}
+	#it-belive {
+		padding-top: 80%;
+	}
+	#remote .tit-2{
+		font-size: 21px;
+		line-height: 25px;
+		width: 100%;
 	}
 	.m-hero-item>div {
 		padding: 0px;
@@ -808,7 +872,7 @@ Mobile Breakpoint
 		line-height: 21px;
 	}
 	.c-arrow-headline {
-		background: url(../images/icons/arrow.png) no-repeat 150% 50%;
+		background: url(../images/icons/arrow_transparency.png) no-repeat 150% 50%;
 		-moz-background-size: 106vh;
 		-webkit-background-size: 106vh;
 		-o-background-size: 106vh;
@@ -832,8 +896,12 @@ Mobile Breakpoint
 	#remote {
 		padding-bottom: 0;
 		padding-top: 0;
+		height: 640px;
 	}
-
+	.big-num-show{
+		padding-top: 100%;
+		padding-bottom: 20%;
+	}
 	
 	.red-number.six {
 		font-size: 47px;
@@ -844,10 +912,17 @@ Mobile Breakpoint
 		font-size: 47px;
 		padding-top: 0;
 	}
-	.red-number.six, 
+	
 	.red-number.money {
 		padding-left: 25px;
-		padding-top: 25px;
+		padding-top: 54px;
+	}
+	.red-number.six {
+		padding-left: 25px;
+		padding-top: 33px;
+	}
+	.sub-six-text p {
+		padding-top: 8.5%;
 	}
 	.sub-money-text p {
 		padding-top: 5%;
@@ -859,8 +934,16 @@ Mobile Breakpoint
 		padding: 0;
 		font-size: 18px;
 		line-height: 21px;
-		margin-bottom: 0;
+		margin-bottom: 35px;
 	}
+	.sub-six-text p {
+		padding-top: 4.5%;
+	}
+	.icon-money {
+		width: 127px;
+		padding-top: 15%;
+	}
+
 	.text-center-mobile {
 		text-align: center;
 		text-align: -webkit-center;
@@ -987,7 +1070,7 @@ Mobile Breakpoint
 		height: 409px;
 	}
 	#office.c-arrow-headline {
-		background: url(../images/icons/arrow.png) no-repeat #D33B01;
+		background: url(../images/icons/arrow_transparency.png) no-repeat #D33B01;
 		background-size: 64vw!important;
 		background-position: -48%!important;
 	}
@@ -1016,12 +1099,12 @@ Mobile Breakpoint
 		line-height: 32px;
 	}
 	#remote .tit-2 {
-	    font-size: 26px;
-	    line-height: 32px;
-	    font-weight: 600;
-	    font-family: "Segoe UI Semibold";
-	    width: 80%;
-	    padding: 3.5% 0 0 2.5%;
+		font-size: 26px;
+		line-height: 32px;
+		font-weight: 600;
+		font-family: "Segoe UI Semibold";
+		width: 80%;
+		padding: 3.5% 0 0 2.5%;
 	}
 	#mobile-gains-1024-show{
 		display: block;
@@ -1032,9 +1115,9 @@ Mobile Breakpoint
 	}
 
 	#mobile-gains {
-	    padding-bottom: 175px;
-	    padding-top: 2px;
-	    padding-left: 20px;
+		padding-bottom: 175px;
+		padding-top: 2px;
+		padding-left: 20px;
 	}
 
 	#mobile-gains .second-chart{
@@ -1042,7 +1125,7 @@ Mobile Breakpoint
 	}
 
 	#mobile-gains p.tit{
-	    padding-right: 12rem;
+		padding-right: 12rem;
 	}
 
 	.big-num-hide{
@@ -1258,6 +1341,7 @@ Mobile Breakpoint
 	font-size: 18px;
 	line-height: 24px;
 	padding: 12px 0;
+	list-style-type: none;
 }
 
 #disclaimer.disclaimer .text p {
