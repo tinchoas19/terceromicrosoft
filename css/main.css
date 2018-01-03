@@ -5,6 +5,9 @@ body{
 .c-heading-1, .c-heading-2, .c-subheading-1, .c-subheading-2 {
 	font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif!important;
 }
+.block-extend{
+	width: 100%!important;
+}
 #circle, #mobiledevices {
 	opacity: 0;
 }
@@ -1267,6 +1270,11 @@ Mobile Breakpoint
 	    background-position: -65%!important;
 	}
 
+	#roi.c-arrow-headline {
+	    background-size: 68vw!important;
+	    background-position: -65%!important;
+	}
+
 	.c-arrow-headline {
 	    background-size: 68vw!important;
 	    background-position: -65%!important;
@@ -1290,6 +1298,95 @@ Mobile Breakpoint
 		width:33.3333333333%!important;
 	}
 
+	#it-belive .col-right {
+	    padding-right: 4%;
+	    padding-bottom: 0!important;
+	    padding-left: 0!important;
+	}
+
+	#it-belive .square{
+		height: 62px;
+	}     
+
+	.grey-number {
+	    font-size: 47px;
+	}
+
+	#it-belive .pad-bottom-1 {
+	    padding-bottom: 50px;
+	}
+
+	#it-belive {
+	    padding-bottom: 64px;
+	}
+
+	#mobility .square {
+	    height: 59px;
+	    padding: 0;
+	}
+
+	.year-big {
+	    font-size: 38px;
+	}
+
+	.square.final-text {
+	    padding-left: 2%!important;
+	}
+
+	#workplace .regular-text {
+	    padding-top: 7%;
+	}
+
+	#roi.c-arrow-headline .pad-top-025 {
+	    padding-top: 5%!important;
+	}
+
+	#roi .regular-text {
+	    width: 75%;
+	}
+
+	#happier .triangle-text {
+	    padding-top: 0%;
+	    padding-right: 23%;
+	}
+
+	#remote .icon-calendar {
+	    width: 98px;
+	}
+
+	#remote .icon-money {
+	    width: 86px;
+	}
+
+	#remote .red-number {
+	    font-size: 54px;
+	}
+
+	#remote .red-number.six {
+	    margin-top: 12%;
+	}
+
+	#remote .red-number.money {
+	    padding-top: 29%;
+	}
+
+	#remote .sub-six-text p, #remote .sub-money-text p{
+		font-size: 16px!important;
+	}
+
+	#remote {
+	    height: 471px;
+	}
+
+	#office.c-arrow-headline {
+	    background-size: 93vw!important;
+	    background-position: -457%!important;
+	    height: 409px;
+	}
+
+	#video .right {
+	    padding: 2rem 3rem 0 0;
+	}
 	/*---------------
 	Fin Juani
 	-----------------*/
