@@ -165,7 +165,7 @@ p.white{
 	line-height: 32px;
 }
 
-
+#mobiledevices{width: 104px;}
 
 .bg-light-color{
 	background-color: #E6E6E6;
@@ -1277,6 +1277,8 @@ Mobile Breakpoint
 		padding-right: 12rem;
 	}
 
+	#mobiledevices{width: 58px;}
+
 	.big-num-hide{
 		display: none;
 	}
@@ -1361,7 +1363,7 @@ Mobile Breakpoint
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: 1%;
-		height: 104vh;
+		height:74vh;
 		width: 100%;
 		display: flex;
 		flex-flow: column;
@@ -1454,7 +1456,7 @@ Mobile Breakpoint
 	}     
 
 	.grey-number {
-		font-size: 47px;
+		font-size: 36px;
 	}
 
 	#it-belive .pad-bottom-1 {
@@ -1468,6 +1470,84 @@ Mobile Breakpoint
 	#mobility .square {
 		height: 59px;
 		padding: 0;
+	}
+
+	#mobility .container {
+	    padding-bottom: 6vw;
+	}
+
+	#mobility [data-grid~=col-8]{
+		width: 71%;
+	}
+
+	#mobility [data-grid~=col-4]{
+		width: 19%;
+	}
+
+	#mobility [data-grid~=col-3]{
+		width: 11%;
+	}
+
+	#mobility [data-grid~=col-2]{
+		width: 19%;
+	}
+
+	#mobility [data-grid~=col-1]{
+		width: 10%;
+	}
+
+	#chart-bar-1 .final-text{
+		padding-right: 4%;
+	}
+
+	#chart-bar-2 .final-text{
+		padding-right: 4%;
+	}
+
+	#chart-bar-3 .final-text{
+		padding-right: 0%;
+	}
+
+	#chart-bar-4 .final-text{
+		padding-right: 0%;
+    	letter-spacing: -0.3px;
+	}
+
+	#thats6additional {
+	    width: 104px;
+	}
+
+	#graphic09 {
+	    padding-top: 65px;
+	    width: 79px;
+	}
+
+	.sub-six-text p {
+	    padding-top: 7.5%;
+	}
+
+	#migrating .tit {
+	    padding: 3rem 6.5rem 0 0;
+	    font-size: 26px;
+	    line-height: 32px;
+	    margin-bottom: 3.5rem;
+	    letter-spacing: 1px;
+	}
+
+	#migrating .down-text {
+	    font-size: 16px;
+	    line-height: 22px;
+	    padding-right: 31px;
+	    width: 100%;
+	}
+
+	.sub-money-text p {
+	    padding-top: 6%;
+	}
+
+	.second-chart p {
+	    font-size: 24px;
+	    padding-top: 0;
 	}
 
 	.year-big {
@@ -1532,6 +1612,19 @@ Mobile Breakpoint
 	#video .right {
 		padding: 2rem 3rem 0 0;
 	}
+
+	#it-belive .pad-bottom-1{
+		padding-bottom: 0;
+	}
+
+	.itbelieve-svgs{
+		padding-top: 16%;
+	}
+
+	.year {
+	    font-size: 24px;
+	}
+
 	/*---------------
 	Fin Juani
 	-----------------*/
@@ -1747,7 +1840,7 @@ Mobile Breakpoint
 		}
 
 		#office {
-			height: 354px;
+		    height: 410px;
 		}
 
 		#office.c-arrow-headline {
@@ -1801,6 +1894,51 @@ Mobile Breakpoint
 			color: #FFFFFF!important;
 			line-height: 21px;
 			text-decoration: none!important;
+		}
+
+		.square {
+		    height: 38px;
+		}
+
+		.triangle-row .orgaization-legends div {
+		    float: left;
+		    width: 20%;
+		    padding: 39px 1%;
+		    margin: 0;
+		    font-size: 12px;
+		    line-height: 14px;
+		    text-align: center;
+		}
+
+		#organizationadopting{
+		    opacity: 1;
+		    padding-top: 10%;
+		    height: 236px;
+		}
+
+		.triangle-row .orgaization-legends div {
+		    padding: 0px 1%;
+		}
+
+		.text-center-mobile{
+			text-align: left;
+		}
+
+		#graph01-cont.svg-outer svg {
+		    width: 85%!important;
+		    padding-top: 10%;
+		}
+
+		#graphic09 {
+		    width: 80px;
+		}
+
+		#remote {
+		    height: 517px;
+		}
+
+		.bar-orange, .bar-gray, .bar-gray.bar-gray-2{
+			margin: 0;
 		}
 
 	}	
