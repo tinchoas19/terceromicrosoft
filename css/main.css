@@ -330,14 +330,12 @@ p.white{
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 600!important;
-	font-family: "Segoe UI Semibold"!important;
 }
 .sub-six-text p{
 	padding-top: 12%;
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 600!important;
-	font-family: "Segoe UI Semibold"!important;
 }
 #workplace{
 	height: 456px;
@@ -540,13 +538,11 @@ p.white{
 	font-size: 36px;
 	line-height: 44px;
 	font-weight: 600!important;
-	font-family: "Segoe UI Semibold"!important;
 }
 
 #migrating .subtit{
 	font-weight: 600;
 	color: #D33B01;	
-	font-family: "Segoe UI Semibold"!important;
 }
 #video{
 	/*padding-bottom: 135px;*/
