@@ -61,6 +61,20 @@ p.white{
 
 }
 
+.triangle-row .orgaization-legends{
+	width:100%;
+}
+.triangle-row .orgaization-legends div{
+	float:left;
+	width:20%;
+	padding: 39px 1%;
+	margin:0;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+}
+
+
 .col-left{
 	padding-right: 5%;
 }
