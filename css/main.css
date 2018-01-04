@@ -172,6 +172,14 @@ p.white{
 	text-decoration: none;
 }
 
+#it-belive #graph01-img svg{
+	width: 100%;
+}
+
+.svg-outer svg{
+	width: 100%!important;
+}
+
 
 .main-button:hover {
 	background: #dc4710;
@@ -1213,6 +1221,10 @@ Mobile Breakpoint
 		font-size: 26px;
 		line-height: 32px;
 	}
+	.final-text {
+	    font-size: 16px;
+	    line-height: 22px;
+	}
 	.btn-learn-more {
 		width: 186px;
 		display: block;
@@ -1339,7 +1351,7 @@ Mobile Breakpoint
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: 1%;
-		height: 74vh;
+		height: 104vh;
 		width: 100%;
 		display: flex;
 		flex-flow: column;
